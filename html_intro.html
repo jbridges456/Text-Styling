@@ -1,0 +1,76 @@
+<!-- ctrl + ? makes comments, this is an html comment  -->
+
+<!-- the first tag you see on the webpage sets the doctype to html to tell the browser this is an HTML5 Webpage -->
+<!DOCTYPE html>
+<!-- The next HTML tag that we need is the html tag -->
+
+<!-- the next HTML tag we need is the html tag; the lang=en attribute and value are set by default in VS code  -->
+
+<html lang="en">
+    <!-- The head section shold be the first section in the html tag; The head tag holds information for the browser and search engines to properly display and catergorize the webpage -->
+ <head>
+        <!-- tells the browser that pretty much any character from any language may appear on this page -->
+ <meta charset="UTF-8">
+<!-- this is the first step in making sure that the webpage looks good on a mobile device -->
+ <meta name="viewport" content="width=device-width, intial-scale=1.0">
+<!-- the title is what appears in the browser tab, make it a short sweet and descriptive title -->
+ <title>HTML Basics</title>
+
+ </head> 
+
+ <!-- This is where our page content goes, anything you want to present to the user should go in the body section - text, images, videos -->
+<body>
+       <!-- this is the first section in the body that I use - things like logo, menu, or page title can go here -->
+
+       
+<header>
+       <!-- h1 is the heading 1 tag - the top level heading tag; there are 6 levels of heading tags 
+        there should be 1 and only h1 tag on a page; the text should be similar to the title in the head section -->
+<h1> Welcome to my CSC104 HTML Basics Page</h1>
+</header>
+
+<!-- I use main to indicate that this is the core content of the webpage -->
+<main>
+<!-- h2 is the second level heading; it's a good way to add in a subtitle  -->
+<h2>HTML Descrtiption </h2>
+<!-- p is the paragraph tag - you can use this tag whem showing mutiple sentences -->
+<p>
+       HTML stands for HyperText markup Language. HTML provides the structure of the webpage by marking up the text. HTML does not have many rules, but does have some practices, such as only having 1 h1 tag on a page and using sematic tags to organize our content. ......Long ass paragraph...
+</p>
+<!-- h3 is the third level heading -->
+<h3> History of HTML  </h3>
+<!-- ul is the unorded list - it will place a bullet point in front of each item in the list -->
+<ul> 
+       <!-- li is the list item - each item in the list should be surrounded by li tags -->
+        <li>HTML 1.0 - developed in the early 1990s</li>
+        <li>HTML 2.0 - released in 1995</li>
+        <li>HTML 3.2 - released in 1999</li>
+        <li>HTML 4.01 - released in 1999</li>
+        <li>HTML 5 - living standard - released in 2014</li>
+</ul>
+<!-- img is the image tag - when you want to display an image on the page use this tag; it is a 1 sided tag - it does not need a closing tag; set the src -that is the file name - use a relative path ./ instead of / or a location on your computer, such as c:/users/...
+ make sure each image has alt text to that screen readers can give the user an idea of what the image represents -->
+<img src="./Images/HTML_Blog-scaled.jpeg" alt="Html Flick Pic"
+width="300">
+
+<!-- dl is description list (data list) -->
+ <dl>Water
+ <!-- dd is the description of the term -->
+ <dd>Water is a liquid</dd>
+
+ <dt>Coffee</dt>
+ <dd>A caffinated version of water</dd>
+ 
+ </dl>
+</main>
+<!-- the footer is at the bottom of the page and typically shows a site map, legeslate, address, contact us -->
+
+<!--the last tag on your page should be the closing html tag  -->
+
+<footer>
+       <!-- the footer is at the bottom of the page and typically shows a site map, legeslate, address, contact us -->
+</footer>
+
+</body>
+
+</html>
